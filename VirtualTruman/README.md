@@ -17,11 +17,23 @@ An immersive 3D virtual tour application for Truman State University, allowing p
 ## 📁 Project Structure
 ```
 truman-virtual-tour/
-├── Frontend/                 # Frontend application files
+├── Frontend/   # Frontend application files   
+|---Components/
+      AnnotationManager.js
+      Constants.js
+      SkyboxLoader.js
+      SkyboxScene.js
+      UIcomponents.js
+      Utils.js           
 │   ├── welcome.html         # Welcome page with slideshow
 │   ├── index.html           # 3D virtual tour experience
 │   ├── app.js              # React + Three.js application
 │   └── style.css           # Custom styling
+├── Maps/
+      BuildingData.js
+      Config.js
+      app.js
+      MapView.js
 ├── Backend/                 # Backend services
 │   ├── server.js           # Express.js server
 │   └── package.json        # Backend dependencies
